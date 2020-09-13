@@ -11,7 +11,8 @@ import {SlideDown} from 'react-slidedown'
 import 'react-slidedown/lib/slidedown.css'
 
 import Project from '../pages/project'
-import About from '../pages/About'
+import Resume from '../pages/Resume'
+
 function Navbar(props) {
 	return (
 		<Router>
@@ -39,7 +40,7 @@ function Navbar(props) {
             </SlideDown>
           </Route>
           <Route path="/resume">
-            <About />
+            <Resume />
           </Route>
         </Switch>
       </div>
